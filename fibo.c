@@ -4,7 +4,7 @@ int main() {
     int n;
     unsigned long long first = 0, second = 1, next;
 
-    printf("Enter the number of terms: ");
+    printf("Enter the number of items and terms: ");
     if (scanf("%d", &n) != 1 || n <= 0) {
         printf("Please enter a valid positive integer.\n");
         return 1;
